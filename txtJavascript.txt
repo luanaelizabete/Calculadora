@@ -1,0 +1,25 @@
+ENTRADA
+->Prompt
+->Form
+
+PROCESSAMENTO
+-> Oque o computador irá fazer, sendo alguns exemplos o cálculo de contas
+
+SAÍDA
+->Document.write
+->Alert
+->Console.log
+
+Const - não pode mexer no valor, pois ele é constante, logo não altera
+Var - Tem como redeclarar a variável, logo não é interessante usá-lo. Atribui outro valor  *HOISTING*
+Let - o ideal para usar, pois quando declarada a variável, tem como alterar o valor, não se redeclara ela
+
+let e var = variáveis
+cont = constante
+
+coloca a palavra let, cria a variável
+se quiser que a variável let esteja valendo somente no local, dentro de uma function por exemplo, declara ela no local.
+
+
+* modelo DOM e JS *
+ 
