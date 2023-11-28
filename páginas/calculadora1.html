@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <tittle>Javascript</title>
+  <title>Javascript</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -13,11 +13,11 @@
     <form action="calculadora1.html" method="GET" name="formCalculadora" onsubmit="calcular();">
       <div>
         <label for="numero1">Primeiro número:</label>
-        <input type="text" name="num1" id="numero1" placeholder="Digite o primeiro número">
+        <input type="text" name="num1" id="numero1" class= "form-input" placeholder="Digite o primeiro número">
       </div>
       <div>
         <label for="numero2">Segundo número:</label>
-        <input type="text" name="num2" id="numero2" placeholder="Digite o Segundo número">
+        <input type="text" name="num2" id="numero2" class= "form-input" placeholder="Digite o Segundo número">
       </div>
       <div>
         <input type="radio" name="oper" id="op-adicao" value="+">
@@ -32,9 +32,18 @@
       <div>
         <input type="submit" value="Calcular">
         <input type="reset" value="Limpar campos">
+        <input type="button" value="Mostrar Resultado" onclick="calcular();">
       </div>
-
     </form>
+
+    <div>
+      <label for="resultado">Resultado: </label>
+      <input type="text" name='result' id="resultado">
+    </div>
+
+    <p id='pResultado'>
+    </p>
+    
   </main>
   <script src="../js/calculadora1.js"></script>
 </body>
